@@ -1,7 +1,7 @@
 public class Figure
 {
-    Square square;
-    Circle circle;
+    private Square square;
+    private Circle circle;
 
     public Figure(float squareSide)
     {

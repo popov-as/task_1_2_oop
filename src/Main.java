@@ -18,11 +18,7 @@ public class Main
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите длину стороны квадрата:");
-        float side = scanner.nextFloat();
-
-        if (side <= 0) throw new RuntimeException("Длина должна быть больше нуля");
-
-        return side;
+        return scanner.nextFloat();
     }
 
     private static void printArea(String pictureName, float area)
